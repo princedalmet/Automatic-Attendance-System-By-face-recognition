@@ -1,14 +1,25 @@
-# Automatic-Attendance-System-By-face-recognition
-Face recognition is a step further to face detection. In face detection, we only detect the location of the human face in an image but in face recognition, we make a system that can identify humans
+Attendance Management System Using Face Recognition(Prototype)
 
-It can also be stated as, "Face recognition is a broad challenge of verifying or identifying people in pictures or videos. Big tech giants are still working to make a faster and more accurate face recognition model."
+This project involves building an attendance system which utilizes facial recognition to mark the presence, time-in, and time-out of employees. It covers areas such as facial detection, alignment, and recognition, along with the development of a web application to cater to various use cases of the system such as registration of new employees, addition of photos to the training dataset, viewing attendance reports, etc. This project intends to serve as an efficient substitute for traditional manual attendance systems. It can be used in corporate offices, schools, and organizations where security is essential.
 
-Project stages
+This project aims to automate the traditional attendance system where the attendance is marked manually. It also enables an organization to maintain its records like in-time, out time, break time and attendance digitally. Digitalization of the system would also help in better visualization of the data using graphs to display the no. of employees present today, total work hours of each employee and their break time. Its added features serve as an efficient upgrade and replacement over the traditional attendance system.
 
-Face Detection: Locate faces and draw bounding boxes around faces and keep the coordinates of bounding boxes.
+Scope of the project
+Facial recognition is becoming more prominent in our society. It has made major progress in the field of security. It is a very effective tool that can help low enforcers to recognize criminals and software companies are leveraging the technology to help users access the technology. This technology can be further developed to be used in other avenues such as ATMs, accessing confidential files, or other sensitive materials. This project servers as a foundation for future projects based on facial detection and recognition. This project also convers web development and database management with a user-friendly UI. Using this system any corporate offices, school and organization can replace their traditional way of maintaining attendance of the employees and can also generate their availability(presence) report throughout the month.
 
-Face Alignments: Normalize the faces to be consistent with the training database.
+Flow of the Project
+Fig 1: Shows the Basic UI of the Project
+Fig 2: Shows the Login Page 
 
-Feature Extraction: Extract features of faces that will be used for training and recognition tasks.
+Fig 3: Shows the Admin Page
 
-Face Recognition: Matching of the face against one or more known faces in a prepared databasee complicated but getting started doesn’t have to be
+Fig 4: Shows the Register New Employee
+
+Fig 5: Enter Username
+
+Fig 6: Takeing image of the Employee
+
+Fig 7: Shows the statistics of the day
+Conclusion
+
+This is a prototype version of our Project.
