@@ -18,12 +18,15 @@ Fig 2: Shows the Login Page
 Fig 3: Shows the Admin Page
 
 ![Screenshot from 2023-11-09 21-10-24](https://github.com/princedalmet/Automatic-Attendance-System-By-face-recognition/assets/99526815/b9d2738a-49fc-4d7e-b7c7-d671eb88fa48)
+
 Fig 4: Shows the Register New Employee
 
 ![Screenshot from 2023-11-09 21-10-43](https://github.com/princedalmet/Automatic-Attendance-System-By-face-recognition/assets/99526815/511e28e4-c81f-4019-a1c4-c59ac351158e)
+
 Fig 5: Enter Username
 
 ![Screenshot from 2023-11-09 21-52-39](https://github.com/princedalmet/Automatic-Attendance-System-By-face-recognition/assets/99526815/9eeb6f3c-c905-40f1-a994-0d2a48538f68)
+
 Fig 6: Takeing image of the Employee
 
 ![Screenshot from 2023-11-09 21-20-05](https://github.com/princedalmet/Automatic-Attendance-System-By-face-recognition/assets/99526815/43c6e970-5e0c-494c-b902-6f758f033386)
