@@ -1,38 +1,39 @@
+Attendance Management System Using Face Recognition(Prototype)
 
-# Face based attendance system using python and openCV
+This project involves building an attendance system which utilizes facial recognition to mark the presence, time-in, and time-out of employees. It covers areas such as facial detection, alignment, and recognition, along with the development of a web application to cater to various use cases of the system such as registration of new employees, addition of photos to the training dataset, viewing attendance reports, etc. This project intends to serve as an efficient substitute for traditional manual attendance systems. It can be used in corporate offices, schools, and organizations where security is essential.
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
-[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) 
+This project aims to automate the traditional attendance system where the attendance is marked manually. It also enables an organization to maintain its records like in-time, out time, break time and attendance digitally. Digitalization of the system would also help in better visualization of the data using graphs to display the no. of employees present today, total work hours of each employee and their break time. Its added features serve as an efficient upgrade and replacement over the traditional attendance system.
 
-### What steps you have to follow??
-- Download or clone my Repository to your device
-- type `pip install -r requirements.txt` in command prompt(this will install required package for project)
-- Create a `TrainingImage` folder in a project folder.
-- open `attendance.py` and `automaticAttendance.py`, change all the path accoriding to your system
-- Run `attandance.py` file
+Scope of the project
+Facial recognition is becoming more prominent in our society. It has made major progress in the field of security. It is a very effective tool that can help low enforcers to recognize criminals and software companies are leveraging the technology to help users access the technology. This technology can be further developed to be used in other avenues such as ATMs, accessing confidential files, or other sensitive materials. This project servers as a foundation for future projects based on facial detection and recognition. This project also convers web development and database management with a user-friendly UI. Using this system any corporate offices, school and organization can replace their traditional way of maintaining attendance of the employees and can also generate their availability(presence) report throughout the month.
 
-### Project flow & explaination
-- After you run the project you have to register your face so that system can identify you, so click on register new student
-- After you click a small window will pop up in that you have to enter you ID and name and then click on `Take Image` button
-- After clicking `Take Image` button A camera window will pop up and it will detect your Face and take upto 50 Images(you can change the number of Image it can take) and stored in the folder named `TrainingImage`. more you give the image to system, the better it will perform while recognising the face.
-- Then you have to click on `Train Image` button, It will train the model and convert all the Image into numeric format so that computer can understand. we are training the image so that next time when we will show the same face to the computer it will easily identify the face.
-- It will take some time(depends on you system).
-- After training model click on `Automatic Attendance` ,you have to enter the subject name and then it can fill attendace by your face using our trained model.
-- it will create `.csv` file for every subject you enter and seperate every `.csv` file accoriding the subject
-- You can view the attendance after clicking `View Attendance` button. It will show record in tabular format.
+Flow of the Project
 
-### Screenshots
+![Screenshot from 2023-11-09 21-06-28](https://github.com/princedalmet/Automatic-Attendance-System-By-face-recognition/assets/99526815/e7308986-22ee-487f-af77-7faaf4308011)
+Fig 1: Shows the Basic UI of the Project
 
-### Simple UI
-<img src='https://github.com/Patelrahul4884/Attendance-Management-system-using-face-recognition/blob/master/Project%20Snap/1.PNG'>
+![Screenshot from 2023-11-09 21-08-07](https://github.com/princedalmet/Automatic-Attendance-System-By-face-recognition/assets/99526815/9be66294-8f4d-4d5d-8948-a31b679575e3)
+Fig 2: Shows the Login Page 
 
-### While taking Image
-![Screenshot (103)](https://user-images.githubusercontent.com/26384517/86820502-c7f44500-c0a6-11ea-9530-6317ec2059d9.png)
+![Screenshot from 2023-11-09 21-09-31](https://github.com/princedalmet/Automatic-Attendance-System-By-face-recognition/assets/99526815/3bf6b1cd-95af-4529-ad5d-ade733f083a2)
+Fig 3: Shows the Admin Page
 
-## While taking Attendance
-![Screenshot (91)](https://user-images.githubusercontent.com/26384517/86821090-9465ea80-c0a7-11ea-9680-777923663d0c.png)
+![Screenshot from 2023-11-09 21-10-24](https://github.com/princedalmet/Automatic-Attendance-System-By-face-recognition/assets/99526815/b9d2738a-49fc-4d7e-b7c7-d671eb88fa48)
 
-## Attendance in tabular format 
-<img src='https://github.com/Patelrahul4884/Attendance-Management-system-using-face-recognition/blob/master/Project%20Snap/7.PNG'>
+Fig 4: Shows the Register New Employee
 
-## Just follow me and Star⭐ my repository
+![Screenshot from 2023-11-09 21-10-43](https://github.com/princedalmet/Automatic-Attendance-System-By-face-recognition/assets/99526815/511e28e4-c81f-4019-a1c4-c59ac351158e)
+
+Fig 5: Enter Username
+
+![Screenshot from 2023-11-09 21-52-39](https://github.com/princedalmet/Automatic-Attendance-System-By-face-recognition/assets/99526815/9eeb6f3c-c905-40f1-a994-0d2a48538f68)
+
+Fig 6: Takeing image of the Employee
+
+![Screenshot from 2023-11-09 21-20-05](https://github.com/princedalmet/Automatic-Attendance-System-By-face-recognition/assets/99526815/43c6e970-5e0c-494c-b902-6f758f033386)
+Fig 7: Shows the statistics of the day
+
+
+Conclusion
+
+This is a prototype version of our Project.
